@@ -27,9 +27,8 @@ body{
 
 #page1{
     background-image: url("images/Background_Intro.png");
-    background-size: cover;        /* cobre toda a área */
+    background-size: 100%;        /* cobre toda a área */
     background-repeat: no-repeat;  /* evita repetição */
-
 }
 
 img{
@@ -100,13 +99,13 @@ h1, h2, p{
     width: 24px;
     height: 24px;
     object-fit: contain;
+    margin-left: 16px;
+
 }
 
 .ferramentas span{
     text-align: center;
     width: 105px;
-     gap: 8px;
-
 
 }
 
@@ -114,7 +113,8 @@ h1, h2, p{
     display: flex;
     align-items: center;
     background-color: var(--gray-400);
-    border-radius: 15px;
+    border-radius: 20px;
+        gap: 8px;
 }
 
 #caret{
