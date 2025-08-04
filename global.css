@@ -158,7 +158,6 @@ h1, #hello, #mim{
     width: 330px;
     height: 280px;
       border-radius: 10px ;
-      margin-bottom: 112px;
 }
 
 .grid img{
@@ -186,5 +185,49 @@ h1, #hello, #mim{
         color: var(--gray-200);
             font-family: "Maven Pro";
 
+
+}
+
+#pag3{
+    margin-top: 232px;
+    
+}
+#services{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 239px;
+    margin-right: 239px;
+    margin-bottom: 248px;
+}
+#services #block{
+    height: 155px;
+    width: 280px;
+    border: 1px solid var(--gray-200);
+    border-radius: 10px;
+}
+
+#services img{
+    height: 48px;
+    width: 48px;
+    margin-bottom: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+
+}
+#services h2{
+        font-size: 14px;
+    line-height: 140%;
+    font-family: "Maven Pro";
+    color: var(--gray-100);
+        margin-left: 20px;
+
+}
+#services p{
+    margin-bottom: 14px;
+        margin-top: 8px;
+        margin-left: 20px;
+        color: var(--gray-200);
+        font-family: "Maven Pro";
 
 }
