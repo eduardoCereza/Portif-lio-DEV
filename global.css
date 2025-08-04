@@ -70,7 +70,7 @@ img{
     /*margin-bottom: 80px;*/
 }
 
-h1, #hello, #mim{
+#title, #hello, #mim{
     width: 680px;
 }
 
@@ -245,8 +245,6 @@ h1, #hello, #mim{
     font-size: 16px;
     line-height: 140%;
     text-align: center;
-    margin-left: 330px;
-
 }
 
 #pag4{
