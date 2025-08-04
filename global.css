@@ -253,6 +253,10 @@ h1, #hello, #mim{
     background-image: url(/images/Background_Contacts.png);
     background-position: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    display: grid;
+    justify-items: center;
 }
 
 #pag4 p{
