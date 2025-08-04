@@ -231,3 +231,82 @@ h1, #hello, #mim{
         font-family: "Maven Pro";
 
 }
+
+#contato{
+        color: var(--purple);
+    font-family: "Inconsolata";
+    text-align: center;
+    font-size: 20px;
+}
+
+#title3{
+    color: var(--gray-100);
+    font-family: "Maven Pro", serif;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    margin-left: 330px;
+
+}
+
+#pag4{
+    background-image: url(/images/Background_Contacts.png);
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+#pag4 p{
+    text-align: center;
+    color: var(--gray-200);
+    font-family: "Maven Pro";
+    margin-bottom: 48px;
+}
+
+#flex img{
+    width: 28px;
+    height: 28px;
+    margin: 20px auto 20px 20px;
+}
+
+#flex{
+    display: grid;
+    gap: 16px;
+    justify-content: center;
+}
+
+#ultimo{
+    margin-bottom: 200px;
+}
+
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: var(--gray-400);
+    width: 400px;
+    height: 68px;
+    border-radius: 7px;
+}
+
+.flex-box span{
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: var(--gray-200);
+    font-family: "Maven Pro";
+}
+
+#arrow{
+    width: 20px;
+    height: 20px;
+    margin-left: 360px; 
+    margin-top: -20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
